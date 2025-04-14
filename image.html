@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <h1>HTML IMAGE ELEMENTS</h1>
+    <h2>Webpage with HTML image elements</h2>
+    <p>Below is a list of HTML image elements</p>
+    <p><b>Image with src attribute</b></p>
+    <img src="./assests/images/easter1.jpg" alt="Placeholder Image" width="150" height="150">
+    <p><b>Image with srcset attribute</b></p>
+    <img srcset="./assests/images/easter2.jpg 2x, ./assests/images/easter3.jpg 1x" alt="Placeholder Image" width="150" height="150">
+    <p><b>Image with sizes attribute</b></p>
+    <img src="./assests/images/easter4.jpg" sizes="(max-width: 600px) 100vw, 50vw" alt="Placeholder Image" width="300" height="300">
+    <p><b>Image with picture tag</b></p>
+    <picture>
+        <source srcset="./assests/images/easter3.jpg" type="image/webp">
+        <img src="./assests/images/easter1.jpg" alt="Placeholder Image" width="150" height="150">
+    </picture>
+    <hr>
+    <a href="index.html">Back to first page</a>
+</body>
+</html>
